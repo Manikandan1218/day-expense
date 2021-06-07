@@ -1,0 +1,27 @@
+.chart_percentage{
+    width: 25%;
+    height: 85%;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid;
+    margin-top: 5px;
+    transform: rotate(180deg);
+}
+
+.chart-graph{
+    width: 100%;
+    background-image: linear-gradient(to right, DodgerBlue,MediumBlue,DarkSlateBlue);
+    border-radius: 15px;
+    max-height: 100% !important;
+}
+
+.chart-lable{
+    text-align: center;
+    font-size: 14px;
+    color: darkslateblue;
+    font-weight: 800;
+    font-family: 'FontAwesome';
+}
+.chart_percentage:hover{
+    border: 2px solid darkslateblue;
+}

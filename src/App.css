@@ -1,0 +1,26 @@
+body{
+    font-family: ui-serif !important;
+    background-image: url("./Images/back-chart-3.jpg");
+    background-repeat: no-repeat;
+	background-position-x: right;
+    background-position-y: top;
+	z-index: 1;
+}
+
+.expense-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.expense-container-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.expense-toolbar{
+    height: 60px;
+    background-color: whitesmoke;
+    width: 99.7%;
+    border: 2px solid whitesmoke;
+    box-shadow: inset 5px 5px 20px 7px darkslateblue;
+}

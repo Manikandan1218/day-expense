@@ -1,0 +1,54 @@
+.expense-item{
+    height: 120px;
+    background-color: whitesmoke;
+    width: 98%;
+    border-radius: 10px;
+    margin: 5px 4px 0px 4px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid white;
+    box-shadow: 3px 4px darkgrey;
+}
+
+.expense-title{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    font-weight: 900;
+    color: darkslateblue;
+}
+.calender{
+    width: 57%;
+    margin: 10px 0px 0px 20px;
+    height: 95px;
+    background-image: linear-gradient(to right, DodgerBlue,MediumBlue,DarkSlateBlue);
+    border-radius: 10px;
+    box-shadow: 4px 4px darkslateblue;
+}
+.expense-amount{
+    width: 57%;
+    margin: 35px 0px 0px 40px;
+    height: 32px;
+    background-image: linear-gradient(to right, DodgerBlue,MediumBlue,DarkSlateBlue);
+    border-radius: 10px;
+    box-shadow: 4px 4px darkslateblue;
+    text-align: center;
+    padding: 12px 0px 0px 0px;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+}
+.calender-format{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.calender-icon{
+    height: 35px;
+    text-align: center;
+    font-size: 32px;
+    color: whitesmoke;
+}

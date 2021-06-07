@@ -1,0 +1,11 @@
+.new-expense__container{
+    background-image: url("../../Images/back-chaet.jpg");
+    max-width: 30%;
+    height: 490px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 30%;
+    margin: 30px 15px 30px 15px;
+    box-shadow: 3px 3px whitesmoke;
+}

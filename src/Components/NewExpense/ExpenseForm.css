@@ -1,0 +1,130 @@
+input[type=text],input[type=date],input[type=number]{
+    outline: none;
+    width: 90%;
+    height: 45%;
+    margin: 0px 0px 5px 20px;
+    border-radius: 5px;
+    border: 2px solid darkblue !important;
+}
+
+.lable-text{
+    padding: 10px 10px 5px 20px;
+    color: darkslateblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.expense-form__con{
+    display: flex;
+    flex-direction: column;
+}
+
+.mt150{
+  margin-top: 100px;
+}
+
+.expense-row{
+    width: 75%;
+    height: 80px;
+    margin: auto;
+    margin-top: 23px
+}
+
+.expense-row-last{
+    width: 100%;
+    height: 50px;
+}
+
+.add-expense-btn{
+    height: 80%;
+    float: right;
+    margin: 10px 25px 0px 0px;
+    width: 18%;
+    border-radius: 10px;
+    border: 1px;
+    background-image: linear-gradient(to right, DodgerBlue,MediumBlue,DarkSlateBlue);
+    color: white;
+    font-weight: 700;
+    font-family: ui-serif;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+.buttonBox{
+    margin: 0 20px 40px;
+    position:relative;
+    max-width: 200px;
+    min-width: 150px;
+    flex: 20%;
+    float: right;
+    cursor: pointer;
+  }
+
+  button,.expense-btn{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background-image: linear-gradient(to right, DodgerBlue,MediumBlue,DarkSlateBlue);
+    color: white;
+    font-weight: 700;
+    letter-spacing: 1px;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    font-family: ui-serif !important;
+    border-radius: 10px;
+  }
+
+  .border{
+    position:absolute;
+    background:none;
+    transition:all .5s ease-in-out;
+}
+
+#third>.border:nth-of-type(1){
+    top:0;
+    left:0;
+    border-top:2px solid white;
+    width:100%;
+    height:100%;
+  }
+  
+  #third>.border:nth-of-type(2){
+    bottom:0;
+    left:0;
+    width:100%;
+    height:100%;
+    border-bottom:2px solid white;
+  }
+  
+  #third>.border:nth-of-type(3){
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    border-left:2px solid white;
+  }
+  
+  #third>.border:nth-of-type(4){
+    top:0;
+    right:0;
+    height:100%;
+    width:100%;
+    border-right:2px solid white;
+  }
+  
+  #third:hover .border:nth-of-type(1){
+    transform:translate(0, 99%);
+  }
+  
+  #third:hover .border:nth-of-type(2){
+    transform:translate(0, -99%);
+  }
+  
+  #third:hover .border:nth-of-type(3){
+    transform:translate(99%, 0);
+  }
+  
+  #third:hover .border:nth-of-type(4){
+    transform:translate(-99%, 0);
+  }
